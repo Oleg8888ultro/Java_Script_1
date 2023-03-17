@@ -10,4 +10,7 @@ function myFunc() {
         el.style.color = document.querySelector('#one').value;
     });
     // пройтись циклом forEach 
+    document.querySelectorAll('h1').forEach((el) => {
+        el.style.color = document.querySelector('#one').value;
+    });
 }
