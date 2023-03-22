@@ -35,4 +35,4 @@ document.querySelector('#btn-2').onclick = (event) => {
     text.value = 'привет';
 }
 
-// 17:33
+// 20:49
