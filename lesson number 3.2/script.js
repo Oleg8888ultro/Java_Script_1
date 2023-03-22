@@ -28,7 +28,8 @@ document.querySelector('#btn-1').onclick = () => {
     }
 }
 
-document.querySelector('#btn-2').onclick = () => {
+document.querySelector('#btn-2').onclick = (event) => {
+    event.preventDefault();
     let text = document.querySelector('#two');
     console.log(text.value);
     text.value = 'привет';
