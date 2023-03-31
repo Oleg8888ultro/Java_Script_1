@@ -1,0 +1,25 @@
+.gallery {
+    /* display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    /* align-items: flex-start; */
+
+    flex: 1 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* делает адаптивным */
+
+
+}
+
+article {
+    flex: 1;
+}
+
+.gallery img {
+    min-width: 300px;
+    margin: 20px;
+}
